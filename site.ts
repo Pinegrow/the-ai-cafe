@@ -1,7 +1,8 @@
 export default {
-  name: 'VuCommerce',
-  description: 'Vue Designer Nuxt Vuetify Tailwind CSS',
-  logo: 'i-fluent-emoji:shopping-bags',
+  name: 'the ai cafe',
+  description:
+    'The AI Cafe powered by Nuxt, Vuetify & TailwindCSS built with Vue Designer',
+  logo: 'i-vscode-icons:file-type-coffeelint',
   author: 'Pinegrow',
   url: 'https://the-ai-cafe.netlify.app',
   github: 'https://github.com/pinegrow/the-ai-cafe',
