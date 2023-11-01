@@ -55,22 +55,22 @@
           <h2 class="text-2xl font-bold text-center mb-4">Today's Specials</h2>
           <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 gap-8">
             <div class="card">
-              <BaseImage
+              <VNuxtImage
                 src="https://images.unsplash.com/photo-1493770348161-369560ae357d?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE3fHxmb29kfGVufDB8fHx8MTY5NzI5MTk3Mnww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=800&fit=crop"
                 alt="Food Image"
                 class="rounded-lg"
-              ></BaseImage>
+              ></VNuxtImage>
               <div class="card-content">
                 <h3 class="text-lg font-bold">Delicious Food</h3>
                 <p class="text-sm">Try our mouthwatering dishes</p>
               </div>
             </div>
             <div class="card">
-              <BaseImage
+              <VNuxtImage
                 alt="Drinks Image"
                 src="https://images.unsplash.com/photo-1485872299829-c673f5194813?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDF8fGRyaW5rc3xlbnwwfHx8fDE2OTcyOTQwMDJ8MA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=800&fit=crop"
                 class="rounded-lg"
-              ></BaseImage>
+              ></VNuxtImage>
               <div class="card-content">
                 <h3 class="text-lg font-bold">Refreshing Drinks</h3>
                 <p class="text-sm">
@@ -79,11 +79,11 @@
               </div>
             </div>
             <div class="card">
-              <BaseImage
+              <VNuxtImage
                 src="https://images.unsplash.com/photo-1541167760496-1628856ab772?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDZ8fGNvZmZlZXxlbnwwfHx8fDE2OTcyOTIwNDF8MA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=800&fit=crop"
                 alt="Coffee Image"
                 class="card-image rounded-lg"
-              ></BaseImage>
+              ></VNuxtImage>
               <div class="card-content">
                 <h3 class="text-lg font-bold">Premium Coffee</h3>
                 <p class="text-sm">Discover our rich and flavorful coffee</p>
@@ -101,7 +101,7 @@
                 alt="Avatar - John Doe"
                 class="card-image rounded-full w-20 h-20 mx-auto"
               >
-                <BaseImage
+                <VNuxtImage
                   src="https://images.unsplash.com/photo-1544725176-7c40e5a71c5e?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDEyfHxhdmF0YXJ8ZW58MHx8fHwxNjk3MzQxNjcxfDA&ixlib=rb-4.0.3&q=80&w=200"
                   alt="John Doe"
                   cover
@@ -121,7 +121,7 @@
                 alt="Avatar - Jane Smith"
                 class="card-image rounded-full w-20 h-20 mx-auto"
               >
-                <BaseImage
+                <VNuxtImage
                   src="https://images.unsplash.com/photo-1566492031773-4f4e44671857?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE1fHxhdmF0YXJ8ZW58MHx8fHwxNjk3MzQxNjcxfDA&ixlib=rb-4.0.3&q=80&w=200"
                   alt="Jane Smith"
                   cover
@@ -141,7 +141,7 @@
                 alt="Avatar - David Johnson"
                 class="card-image rounded-full w-20 h-20 mx-auto"
               >
-                <BaseImage
+                <VNuxtImage
                   src="https://images.unsplash.com/photo-1543610892-0b1f7e6d8ac1?crop=entropy&cs=tinysrgb&fit=max&fm=jpg&ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE2fHxhdmF0YXJ8ZW58MHx8fHwxNjk3MzQxNjcxfDA&ixlib=rb-4.0.3&q=80&w=200"
                   alt="David Johnson"
                   cover
@@ -182,7 +182,7 @@
         <v-row>
           <v-col cols="12" sm="6" md="4">
             <v-card>
-              <BaseImage
+              <VNuxtImage
                 src="https://images.unsplash.com/photo-1557142046-c704a3adf364?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDd8fGNhZmUlMjBmb29kfGVufDB8fHx8MTY5NzI5MjA0Mnww&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=800&fit=crop"
                 alt="Eggs Benedict"
               />
@@ -197,7 +197,7 @@
           </v-col>
           <v-col cols="12" sm="6" md="4">
             <v-card>
-              <BaseImage
+              <VNuxtImage
                 src="https://images.unsplash.com/photo-1613697193450-23f766dbaa73?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDEzfHxjYWZlJTIwZm9vZHxlbnwwfHx8fDE2OTcyOTIwNDJ8MA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=800&fit=crop"
                 alt="Avocado Toast"
               />
@@ -212,7 +212,7 @@
           </v-col>
           <v-col cols="12" sm="6" md="4">
             <v-card>
-              <BaseImage
+              <VNuxtImage
                 src="https://images.unsplash.com/photo-1610632380989-680fe40816c6?ixid=M3wyMDkyMnwwfDF8c2VhcmNofDE2fHxjb2ZmZWV8ZW58MHx8fHwxNjk3MjkyMDQxfDA&ixlib=rb-4.0.3q=85&fm=jpg&crop=faces&cs=srgb&w=1200&h=800&fit=crop"
                 alt="Cappuccino"
               />
